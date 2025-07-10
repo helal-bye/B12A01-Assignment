@@ -11,7 +11,10 @@
       font-family: "Inter", sans-serif;
 }
 /* shared styles */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 header{
     height: 700px;
     /* width: 100%; */
@@ -71,4 +74,32 @@ nav h1{
 .banner-btn{
     display: block;
     margin: 0 auto;
+}
+/* start see it action */
+.see-action-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.see-action-container img{
+    height: 330px;
+    border-radius: 48px;
+}
+.see-action-title{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.see-action-description{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    /* text-align: center; */
+    width: 75%;
+    color:#25243280;
+
+}
+.btn-live{
+    width: 30%;
 }
