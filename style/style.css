@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.font-raleway{
+      font-family: "Raleway", sans-serif;
+}
+.font-inter{
+      font-family: "Inter", sans-serif;
+}
+/* shared styles */
+
+header{
+    height: 700px;
+    /* width: 100%; */
+    background-image: url('../Assets/Hero-bg.png');
+    position: relative;
+    margin-bottom: 120px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 50px 0px;
+    
+
+}
+nav h1{
+    color: #4E47FF;
+    font-weight: 900;
+    font-size: 34px;
+}
+.btn-primary{
+    background: #4E47FF;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    color: white;
+    transition: 0.5s;
+}
+.btn-primary:hover{
+    background: transparent;
+    color: #4E47FF;
+    border: 1px solid #4E47FF;
+}
+/* Banner section start */
+.banner-container{
+    max-width: 1140px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    color: #252432;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.banner-btn{
+    display: block;
+    margin: 0 auto;
+}
