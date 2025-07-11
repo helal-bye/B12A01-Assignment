@@ -146,3 +146,51 @@ nav h1{
     
 
 }
+.user-say-title{
+    text-align: center;
+    color: #252432;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+/* user say start */
+.designer-container{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 120px;
+}
+.review-img{
+    display: flex;
+    gap: 10px;
+}
+.start-img img{
+    width: 20px;
+    margin-bottom: 20px;
+    
+}
+.designer-title{
+    color: #1E1E1E;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.designer-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #1E1E1E;
+    margin-bottom: 15px;
+}
+.reviewer, .review-name{
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
+}
+.designer-content{
+    padding: 25px;
+    
+    border-radius: 15px;
+}
+.review-img img{
+    
+}
